@@ -1,0 +1,131 @@
+<!-- ATIVIDADE PRÁTICA 1
+
+Cabeçalho
+
+Crie uma div contendo:
+
+O nome de título qualquer utilizando a
+tag h1.
+
+Utilize um id chamado:
+
+id="logo"
+
+Crie 3 informações .
+
+Cada notícia deve ficar dentro de uma div.
+
+Utilize a mesma class para todas as
+notícias:
+
+class="noticia"
+
+Cada informação deve conter:
+
+Um título (h2);
+
+Um parágrafo (p).
+
+Utilize CSS para:
+
+ID
+
+Estilizar o elemento:
+
+#logo
+
+Aplicando:
+
+Cor do texto;
+
+Centralização do texto.
+
+CLASS
+
+Estilizar a classe:
+
+.noticia
+
+Aplicando:
+
+Borda;
+
+Margin;
+
+Padding. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Estilização do ID #logo */
+        #logo {
+            color: rgb(255, 81, 0); /* Cor do texto */
+            text-align: center; /* Centralização do texto */
+
+        }
+
+        /* Estilização da classe .noticia */
+        .noticia {
+            border: 1px solid black; /* Borda */
+            margin: 10px; /* Margin */
+            padding: 10px; /* Padding */
+    
+        }
+        .footer {
+            text-align: center; /* Centralização do texto */
+            margin-top: 20px; /* Margin superior */
+        }
+        .logo{
+            
+            width: 100vw;          /* Ocupa 100% da largura da janela visual */
+            height: 250px;         /* Defina a altura que desejar para o topo */
+            object-fit: cover;     /* Corta e ajusta a imagem sem distorcer o desenho */
+            object-position: center; /* Mantém o meio da imagem sempre visível */
+            display: block;        /* Remove espaços em branco extras na parte inferior */
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!-- cabeçalho -->
+    <div id="logo">
+        
+        <h1>Panda Notícias</h1>
+        <img src="image_379879cf.png" alt="Logo do site" class="logo">
+    </div>
+
+    <!-- Notícias -->
+    <div class="noticia">
+        <h1>Cantor de TRAP</h1>
+        <img src="orochi.jpg" alt="Imagem da notícia">
+        <p>Orochi é um cantor de trap que está ganhando popularidade.</p>
+        <p>Com suas letras cativantes e estilo único, Orochi tem conquistado uma base de fãs crescente.</p>
+        
+    </div>
+
+    <div class="noticia">
+        <h1>Expulsão polemica em campeonato</h1>
+        <img src="expulso.jpg" alt="Imagem da notícia">
+        <p>Abate Abel faz expulsão de um jogador em uma partida de campeonato.</p>
+        <p>A expulsão gerou controvérsia entre os fãs e especialistas do esporte, com muitos questionando a decisão do árbitro.</p>
+        
+    </div>
+
+    <div class="noticia">
+        <h1>Panda é encontrado em área rural</h1>
+        <img src="panda.jpg" alt="Imagem da notícia">
+        <p>Um panda foi encontrado vivo em uma área rural, gerando comemoração entre os conservacionistas.</p>
+        <p>O panda, que estava desaparecido há semanas, foi resgatado por uma equipe de conservação e está agora em um santuário para cuidados adicionais.</p>
+        
+    </div>  
+    <div class="footer">
+        <p>Copyright © 2024 Panda Notícias. Todos os direitos reservados.</p>
+    </div>       
+</body>
+</html>
